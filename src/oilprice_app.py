@@ -5,7 +5,7 @@ from src.data_handler import DataHandler
 from src.predictor import Predictor
 
 class Oil_price:
-    """Manages the Streamlit app for gold price prediction."""
+    """Manages the Streamlit app for oil price prediction."""
 
     def __init__(self, data_path='data/Crude Oil WTI Futures Historical Data.csv', model_path='Model/svm_model.pkl',
                  required_columns={'Open', 'High', 'Low'}):
