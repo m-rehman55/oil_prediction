@@ -18,7 +18,7 @@ class Oil_price:
             st.stop()
 
     def run(self):
-        st.title('Gold Price Prediction')
+        st.title('Oil Price Prediction')
         st.subheader("Last 4 Open, High, Low Prices")
         st.table(self.data_handler.get_head(4))
 
